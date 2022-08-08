@@ -24,9 +24,9 @@
                                  
 @foreach ($posts as $post)
 <tr>
-<th >{{$post->id}}</th>
-<th >{{$post->title}}</th>
-<th >{{$post->body}}</th>
+<th >{{$post['id']}}</th>
+<th >{{$post['title']}}</th>
+<th >{{$post['body']}}</th>
 <td> 
 <a  href="{{ route('post.restore', $post->['id'] )}}">  
 <i class="fas fa-edit"></i></a>  
