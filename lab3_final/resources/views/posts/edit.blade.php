@@ -23,7 +23,7 @@ integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1
     </div>
     <div class="mb-3">
         <label for="enabled" class="form-label" >Enabled</label>
-        <input type="text" name="enabled" class="form-control" id="enabled" value="{{ $posts['enabled'] }}">
+        <input type="text" name="enabled" class="form-control" id="enabled" value="{{ $post['enabled'] }}">
       </div>
 
     <button type="submit" class="btn btn-primary" >Submit</button>
